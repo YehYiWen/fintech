@@ -1,0 +1,99 @@
+*{
+  margin: 0px;padding: 0px
+}
+body{width:auto;}
+
+.bar {height: 65px;z-index: 999;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  opacity: 0.75;
+ background-color: #0070bd;position: absolute;
+}
+.section2{;height: 500px;}
+
+.logo{flex:1;padding-left: 90px}
+.fintech{flex:1;margin-left: -240px;font-family: Helvetica;font-weight: bold;}
+.lscbc{flex:2;text-align: center;}
+.login{flex:1 ;text-align: right;margin-right: 50px;}
+h5{color:white;font-weight: bold;font-size: 32px;font-family: Helvetica}
+a{color: white;font-size: 12px; text-decoration: none; margin-left: 15px;
+    margin-right: 15px;font-family: Helvetica}
+h1{;font-size: 48px; font-weight: 300; line-height: 1.04;  text-align: left; color: #0070bd; text-shadow: 0 2px 2px #ffffff;font-family: Helvetica }
+
+.section3{width: 100%;margin-top: 5%;margin-bottom: 8%}
+h2{background: #dddddd; border-radius: 25px;width: 15%;height: 34px;margin: auto;;font-size: 22px;color: #0d4061;text-align: center;padding-top: 0.5%;margin-bottom: 1%;font-family: Helvetica}
+.icons{margin: auto;width:80%;padding-top: 2%}
+
+th {height: 100px;width:5%;
+    text-align: center;font-family: Helvetica;
+}
+td {
+    text-align: center;font-family: Helvetica;font-weight: bold;
+}
+.line{color: #0e304e;font-size: 14px}
+.Description{ color: #636363;font-size: 12px;font-weight:normal;}
+.section4{background-image: url(images/fintech-london.png);background-size: 100%; background-repeat: no-repeat;height:500px}
+h3{font-size: 20px;color: #ffffff;text-align: center;padding-top:5%;font-family: Helvetica}
+.form1{margin: auto;width:40%}
+input[type=text], select {color:rgba(0, 0, 0, 0.38);
+    width: 100%;height:50px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;height:50px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.section5{ background-color: #0070bd;width: 100%;margin-top:-3%;height: 300px;
+}
+.company{ float:left;font-family: Helvetica;
+    width:100px;
+    height: 220px;
+  margin-left: 10%;}
+.ourpartners{  float:left;font-family: Helvetica;
+    margin:0 auto;
+    width:200px;
+    height: 220px;
+    ;margin-left: 10%;}
+.connect{  float:left;font-family: Helvetica
+    width:100px;
+    height: 220px;
+    margin-left: 10%;}
+.fgt{  float:right;
+        width:200px;
+        height: 220px;
+        margin-right: 13%;padding-top:70px; letter-spacing: 30px;}
+.scrollTop {
+          position: fixed;
+          right: 3%;
+          bottom: 10px;
+
+          padding: 20px;
+          opacity: 0;
+          transition: all 0.4s ease-in-out 0s;
+        }
+
+.scrollTop a {
+          font-size: 18px;
+          color: #fff;
+        }
+.company .ourpartners .connect .fgt {float:clear}
+h4{padding-top: 50px;color: white;font-size: 14px;padding-left: 10px;font-family: Helvetica}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {color: white;font-size: 12px; text-decoration: none;}
